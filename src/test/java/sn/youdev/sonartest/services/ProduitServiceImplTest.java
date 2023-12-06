@@ -47,7 +47,6 @@ class ProduitServiceImplTest {
 
     @Test
     void listerProduit() {
-        // Assuming there are some produits in the database
         List<Produit> produits = produitService.listerProduit();
 
         assertNotNull(produits);
